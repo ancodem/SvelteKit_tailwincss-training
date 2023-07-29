@@ -8,8 +8,8 @@
 			href: '/qr_code'
 		},
 		{
-			title: 'placeholder',
-			href: 'placeholder'
+			title: 'Calculator',
+			href: '/calculator'
 		}
 	];
 </script>
