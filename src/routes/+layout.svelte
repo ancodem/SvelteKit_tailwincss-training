@@ -1,11 +1,14 @@
 <script lang="ts">
+	import Center from '$lib/Center.svelte';
 	import '../app.css';
-  import NavBar from "../lib/NavBar/index.svelte";
+	import NavBar from '../lib/NavBar/index.svelte';
 </script>
 
-<main class="flex w-screen h-screen">
-  <NavBar />
+<main class="flex bg-slate-300 w-screen h-screen">
+	<NavBar />
 	<div class="w-10/12">
-		<slot />
+		<Center>
+			<slot />
+		</Center>
 	</div>
 </main>
