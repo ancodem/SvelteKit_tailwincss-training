@@ -16,9 +16,10 @@
 
 <nav class="w-2/12 gap-2 bg-slate-400 flex flex-col items-center">
 	<h1 class="text-3xl font-bold">Menu</h1>
-	<ul class="w-full flex flex-col">
+	<ul role="menubar" class="w-full flex flex-col">
 		{#each menuItems as { href, title }}
 			<li
+				role="menuitem"
 				class="{$page.url.pathname === href &&
 					'bg-slate-300'} hover:bg-slate-300 duration-500 text-center p-2 rounded-s-lg"
 			>

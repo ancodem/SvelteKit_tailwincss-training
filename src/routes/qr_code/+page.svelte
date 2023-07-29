@@ -7,7 +7,6 @@
 
 	async function getImg() {
 		const img = fetch(qrImageUrl);
-		console.log(img);
 	}
 </script>
 
@@ -26,7 +25,7 @@
 	<div class="flex gap-2 items-center">
 		<input
 			placeholder="Enter your text"
-			class="h-14 rounded-md p-2 text-lg shadow-lg w-full active:border active:border-blue-400"
+			class="h-14 rounded-md p-2 text-lg shadow-lg w-full active:outline-1 active:outline-blue-400"
 			bind:value={input}
 		/>
 		<a

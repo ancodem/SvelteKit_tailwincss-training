@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Center from '$lib/Center.svelte';
-	import NavBar from '$lib/NavBar/index.svelte';
+	import Center from '@components/Position/Center.svelte';
+	import NavBar from '@components/NavBar/index.svelte';
 	import '../app.css';
 </script>
 

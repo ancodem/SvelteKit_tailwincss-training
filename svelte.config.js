@@ -8,6 +8,7 @@ const config = {
 			// an alias ending /* will only match
 			// the contents of a directory, not the directory itself
       '@types': "./src/types/index.ts",
+      '@components/*': "./src/lib/components/*",
 		}
 	},
 	preprocess: vitePreprocess()
