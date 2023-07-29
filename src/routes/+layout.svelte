@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Center from '$lib/Center.svelte';
+	import NavBar from '$lib/NavBar/index.svelte';
 	import '../app.css';
-	import NavBar from '../lib/NavBar/index.svelte';
 </script>
 
 <main class="flex bg-slate-300 w-screen h-screen">
